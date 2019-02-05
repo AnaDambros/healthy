@@ -1,0 +1,227 @@
+body{
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #FFFFFF;
+
+}
+
+.bloquinhos{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+ul{
+    margin:0;
+    padding:0;
+  }
+
+  a{
+    text-decoration: none;
+	color: #000000;
+  }
+
+.botão1{
+    height: 38px;
+    background: #86C232;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #FFFFFF;
+}
+
+.botão2{
+    height: 38px;
+    background: #FFFFFF;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #86C232;
+}
+  
+.gergelin {
+    padding: 15px;
+    background: #86C232;
+    color: #ffffff;
+    margin-top: -250px;
+    margin-bottom: 10px;
+}
+
+.gergelin2 {
+    padding: 15px;
+    background: #86C232;
+    color: #ffffff;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.gergelin4 {
+    padding: 15px;
+    background: #ffffff;
+    color: #000000;
+    margin-top: -400px;
+    margin-bottom: 10px;
+}
+
+.gergelin6 {
+    padding: 15px;
+    background: #ffffff;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.gergelin8 {
+    padding: 15px;
+    background: #ffffff;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header{
+    background: #FFFFFF;
+    color:black;
+    padding-top:30px;
+    min-height:70px ;
+    border-bottom: #93C178 3px solid;
+    
+}
+
+header a{
+    color:black;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:16px;
+  }
+  
+
+
+header li{
+    float:left;
+    display:inline;
+    padding: 0 20px 0 20px;
+  }
+
+  header #branding{
+      float: left;
+  }
+
+  header #branding h1{
+      margin: 0;
+  }
+
+  header nav{
+      float: right;
+      margin-top: 10px;
+  }
+
+  header .highlight, header .current a{
+      color: #86C232;
+      font-weight: bold;
+  }
+
+  header a:hover{
+      color:black;
+      font-weight: bold;
+  }
+
+#kady{
+    min-height:400px;
+    background:url(../img/maca.jpg) no-repeat 0 -400px;
+    text-align:center;
+    color:#ffffff;
+}
+#kady h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+#kady p{
+    font-size: 20px;
+}
+
+#noticias{
+    padding: 15px;
+    columns: #000000;;
+    background: #ffffff;
+    border-bottom: #93C178 3px solid;
+}
+#noticias h1{
+    float: left;
+}
+#noticias form{
+    float: right;
+    margin-top: 15px;
+}
+#noticias input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+ #caixass {
+    margin-top: 20px;
+}
+
+#caixasss .caixas a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#caixass .caixas{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+    
+}
+
+#caixass .caixas img{
+    width: 150px;
+
+}
+
+
+#caixass .kim{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 100px;
+    
+}
+
+aside#sidebar{
+    float:right;
+    width:30%;
+    margin-top:10px;
+  }
+  
+  aside#sidebar .quote input, aside#sidebar .quote textarea{
+    width:90%;
+    padding:5px;
+  }
+  
+  article#raiva{
+    float:left;
+    width:65%;
+  }
+
+aside#alho{
+    float: right;
+    width: 30%;
+   margin-top: 10px;
+
+}
+
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #86C232;
+    text-align: center;
+}
